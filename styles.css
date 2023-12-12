@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#chu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding: 0 80px;
+}
+
+#a {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: baseline;
+}
+
+li {
+    margin-right: 15px;
+}
+
+#b {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#cart {
+    margin-right: 35px;
+}
+
+#yo {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#yo + li {
+    margin-left: 40px; 
+}
+
+#main {
+    display: flex;
+    height: 60vh;
+    justify-items: center;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+#pic {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+#bb {
+    width: 10%;
+}
+
+#disc {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.line {
+    margin-left: 5px;
+    width: 68%;
+    height: 2px;
+    background-color: rgba(200, 200, 200, 0.3);
+}
+
+.line-container {
+    display: flex;
+    justify-content: center;
+}
+
+#main_pic {
+    background-image: url('images/shoe_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#slider {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.item {
+    border-radius: 10px;
+    background-color: black;
+    width: 20%;
+    height: 100%;
+}
+
+#vvv {
+    height: 5%;
+    width: 100%;
+    background-color: white;
+}
+
+.a {
+    display: flex;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.b {
+    background-image: url('images/shoe_2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+#c {
+    background-image: url('images/shoe_3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.agg {
+    background-image: url('images/shoe_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.d {
+    background-image: url('images/shoe_4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+#d_c {
+    line-height: 1.5;
+    color: #808186;
+}
+
+#per {
+    background-color: #FFF5E8;
+    color: orange;
+    display: inline-block;
+    margin-left: 2vh;
+}
+
+#xeon {
+    display: flex;
+    align-items: baseline;
+}
+
+#cano {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: 32%;
+    align-items: baseline;
+    border-radius: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: orange;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#lc {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lac {
+    background-color: orange;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px rgba(200, 152, 63, 0.3);
+
+  }
+  #carts{
+    color: white;
+    margin-right: 15px ;
+  }
